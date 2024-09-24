@@ -21,16 +21,16 @@
                 <form action="casdastro.php" method="post">
                     <p class="senhas" id="nome">
                         <label for="inome"><span class="material-symbols-outlined">Person</span></label>
-                        <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Digite seu Nome">
+                        <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Digite seu Nome" minlength="5" required>
                     </p>
                     <p class="senhas" id="espaço">
                         <label for="isenha"><span class="material-symbols-outlined">Key</span></label>
                         <input type="password" name="senha" id="isenha" autocomplete="new-password"
-                        placeholder="Digite sua Senha">
+                        placeholder="Digite sua Senha" minlength="8" maxlength="25" required>
                     </p>
                     <p id="botoes">
                         <input type="submit" value="Criar"><br>
-                        <input type="button" value="Esqueci Minha Senha 🖰" id="esqueci">
+                        <input type="button" value="Esqueci Minha Senha " id="esqueci">
                     </p>
                 </form>
             </div>
